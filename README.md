@@ -6,3 +6,11 @@ Para correr el juego debes seguir las siguientes instrucciones en la terminal:
 cd game
 python3 main.py
 ```
+
+# Chart generator
+
+Para correr el generador de pie charts:
+
+```sh
+python3 charts/main.py
+```
