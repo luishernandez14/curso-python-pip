@@ -7,9 +7,9 @@ def run():
   country = input('Type Country  => ')
   result = utils.population_by_country(data, country)
   if len(result) > 0:
-    country = result[0]
-    labels, values = utils.get_population(country)
-    charts.generate_bar_chart(labels, values)
+    country_data = result[0]
+    labels, values = utils.get_population(country_data)
+    charts.generate_bar_chart(country, labels, values)
     
   data1 = list(filter(lambda countries: countries['Continent'] == 'Asia',data ))
 
