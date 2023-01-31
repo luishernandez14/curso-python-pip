@@ -14,6 +14,7 @@ Para ejectuar la aplicación debes seguir las siguientes instrucciones en la ter
 ```sh
 git clone
 cd app
+python3 -m venv EnviromentName
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
