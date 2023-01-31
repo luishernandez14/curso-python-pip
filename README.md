@@ -7,10 +7,14 @@ cd game
 python3 main.py
 ```
 
-# Chart generator
+# App project
 
-Para correr el generador de pie charts:
+Para ejectuar la aplicación debes seguir las siguientes instrucciones en la terminal
 
 ```sh
-python3 charts/main.py
+git clone
+cd app
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
 ```
